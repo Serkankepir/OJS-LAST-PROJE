@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+
+    overflow-x: hidden;
+}
+.header-{
+    background-image: url(https://supercell.com/images/ae58a39e76410b4ae9c2bea65d4a584d/1681/hero_bg_clashofclans_.fae7c799.webp);
+    height: 47rem;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+
+}
+#nav-top{
+    position: fixed;
+    z-index: 1454;
+    width: 70%;
+    background-color: black;
+    border-radius: 10px;
+    height: 5rem;
+}
+#sağ-nav .nav-item .nav-link{
+    padding-left: 10px;
+}
+#bi-2{
+    font-size: 20px;
+}
+.img-2{
+    height: 30px;
+}
+.nav-ul li a:hover{
+    color: aliceblue;
+}
+.phone-1{
+    position: absolute;
+    background-size: cover;
+    height: 450px;
+    left: -11rem;
+    margin-top: 3rem;
+    z-index: +1;
+}
+
+@media(max-width:1500px)
+{
+    .phone-1{
+        height: 400px;
+        width: auto;
+        top: 3rem;
+        z-index: +1;
+        top: 50rem;
+    }
+}
+@media(max-width:1258px)
+{
+    .phone-1{
+        height: 350px; 
+    }
+}
+@media(max-width:1084px)
+{
+    .phone-1{
+        height: 300px; 
+
+    }
+}
+@media(max-width:848px)
+{
+    .phone-1{
+        height: 250px; 
+
+    }
+}
+@media(max-width:770px)
+{
+    .phone-1{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0; 
+    }
+}
+
+
+.a-1{
+    color: black;
+}
+.img-1{
+    height: 3rem;
+
+}
+.y-1{
+    color: red;
+}
+.back-section{
+
+    width: 100%;
+    height: 450px;
+    background-image: url(https://supercell.com/images/58b140f4e7e9576dc00aa8e0435aecce/1281/bg_gamesocial_clashofclans.6d3e064f.webp);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+@media(max-width:1084px)
+{
+   .back-section{
+    height: 750px;
+   }
+}
+.r-1{
+
+    height: 25px;
+}
+.blue-sec{
+    background-color:rgb(38,114,218);
+}
+.pk-1{
+    height: 200px;
+}

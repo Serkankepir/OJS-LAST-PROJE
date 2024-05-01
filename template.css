@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    z-index: 1456;
+    width: 100%;
+}
+.circle{
+    width: 375px;
+    height: 375px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle::before{
+    content: "x";
+    position: absolute;
+    color: blueviolet;
+    font-size: 28px;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-30deg);
+
+}
+.circle::after{
+    content: "A";
+    position: absolute;
+    color: blueviolet;
+    font-size: 28px;
+    top: 0;
+    right: 0;
+    transform: rotate(30deg);
+
+}
+.phone-1{
+    width: 70%;
+}
+.sec-cl{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
+.circle-2{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+.circle-2::after{
+    content: "A";
+    position: absolute;
+    color: blueviolet;
+    font-size: 28px;
+    top: 0;
+    right: -25px;
+    transform: rotate(30deg);
+
+}
+.circle-2::before{
+    content: "x";
+    position: absolute;
+    color: blueviolet;
+    font-size: 28px;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-30deg);
+}
+.phone-2{
+    margin-left: 65px ;
+}
+.back-image{
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTg1MDA1Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500);
+    background-position: center;
+    background-size: cover;
+}
+.under-sec{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
+.navbar-brand:hover{
+    color: blueviolet;
+}
+i{
+    color: purple;
+}
+.modal-header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
